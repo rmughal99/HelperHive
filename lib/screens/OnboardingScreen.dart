@@ -38,7 +38,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     super.dispose();
   }
 
- 
+
 
   @override
   Widget build(BuildContext context) {
