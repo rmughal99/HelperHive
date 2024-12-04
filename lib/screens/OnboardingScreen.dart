@@ -14,17 +14,17 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   // List of Onboarding Screens' Content
   final _onboardingData = <Map<String, String>>[
     {
-      "image": "assets/onboarding1.png",  // Add your own images in assets
+      "image": "assets/logo.png",  // Add your own images in assets
       "title": "Welcome to HelperHive",
       "description": "The easiest way to find trusted home service providers."
     },
     {
-      "image": "assets/onboarding2.png",
+      "image": "assets/logo.png",
       "title": "Reliable & Secure",
       "description": "We ensure quality service with secure booking and payments."
     },
     {
-      "image": "assets/onboarding3.png",
+      "image": "assets/logo.png",
       "title": "Track Your Service",
       "description": "Real-time tracking for your peace of mind."
     }
