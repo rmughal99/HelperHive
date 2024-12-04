@@ -38,11 +38,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     super.dispose();
   }
 
-  // Function to handle navigation to the main screen
-  void _navigateToMainScreen() {
-    // Redirect to the main screen (you can replace this with the home screen)
-    Navigator.pushReplacementNamed(context, '/home');
-  }
+ 
 
   @override
   Widget build(BuildContext context) {
