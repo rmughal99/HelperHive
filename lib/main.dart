@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '/screens/OnboardingScreen.dart'; // Import OnboardingScreen.dart
+import '/screens/LoginPage/login_Screen.dart'; // Import LoginScreen.dart
 
 void main() {
   runApp(const MyApp());
@@ -12,23 +13,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/onboarding',
+      initialRoute: '/onboarding', // First screen that will be shown
       routes: {
         '/onboarding': (context) => const OnboardingScreen(),
-        '/home': (context) => const HomeScreen(),  // Replace with your actual HomeScreen
+        '/login': (context) => const LoginScreen(), // New Login screen route
+        //
+        //
+        //
+        //
       },
     );
   }
 }
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Home Screen')),
-      body: const Center(child: Text('Welcome to HelperHive!')),
-    );
-  }
-}

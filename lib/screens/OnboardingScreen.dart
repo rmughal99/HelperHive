@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
@@ -89,7 +88,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   ),
                 if (_currentPage == _onboardingData.length - 1)
                   GestureDetector(
-                    onTap: _navigateToMainScreen,
+                    onTap: () => Navigator.pushReplacementNamed(context, '/login'),
                     child: const Text(
                       'Get Started',
                       style: TextStyle(
